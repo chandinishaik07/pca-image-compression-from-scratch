@@ -1,7 +1,6 @@
 """
 PCA + Image Compression from Scratch using SVD
 ================================================
-Amazon ML Summer School 2026 Portfolio Project
 Author: Chandini
 Dataset: MNIST digits + grayscale image
 
@@ -25,7 +24,7 @@ mnist = fetch_openml('mnist_784', version=1, as_frame=False)
 X_raw = mnist.data.astype(np.float64)       # shape: (70000, 784)
 y     = mnist.target.astype(int)
 
-# Use 5000 samples for speed (use all 70k for final portfolio)
+# Use 5000 samples for speed 
 np.random.seed(42)
 idx = np.random.choice(len(X_raw), 5000, replace=False)
 X_raw = X_raw[idx]
