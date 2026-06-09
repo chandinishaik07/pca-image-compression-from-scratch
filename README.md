@@ -53,8 +53,7 @@ keeping only the most important directions of variance. Every line of math is im
 
 ## Visualizations
 
-![PCA Results](<img width="2984" height="3641" alt="pca_results" src="https://github.com/user-attachments/assets/8be13563-a973-4e9a-958b-3a46cddf9db9" />
-)
+![PCA Results]<img src="images/pca_results.png" width="1000">
 
 **Top row:** Variance explained curve · Singular value decay · 2D MNIST projection  
 **Middle row:** Top 8 eigendigits (principal components) · Image reconstruction at k=5,20,50,100  
